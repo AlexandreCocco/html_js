@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container h1 {
+    color: rgb(59, 59, 59);
+    padding: 16px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "itim";
+    font-size: 38px;
+    margin-top: 130px;
+}
+
+form {
+    font-family: "itim";
+    display: flex;
+    flex-direction: column; 
+    gap: 8px; 
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+form input,
+form button {
+    font-family: "itim";
+    width: 100%; 
+    padding: 8px; 
+    font-size: 16px; 
+    border: 1px solid #000000; 
+    border-radius: 12px;
+}
+
+form button {
+padding: 8px;
+background-color: #26e69c; 
+color: #ffffff; 
+border: none; 
+cursor: pointer; 
+font-weight: bold; 
+margin-bottom: 8px;
+}
+
+form button:hover {
+    background-color: #168057; 
+}
+
+.sucesso {
+    font-family: "itim";
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(119, 191, 231, 0.748);
+    max-width: 400px;
+    padding: 4px;
+    display: none;
+}
+
+.falha {
+    font-family: "itim";
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 97, 97, 0.811);
+    max-width: 400px;
+    padding: 4px;
+    display: none;
+}
